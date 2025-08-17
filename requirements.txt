@@ -3,7 +3,7 @@ flask-cors==4.0.0
 pymongo==4.13.2
 python-dotenv==1.0.1
 torch==2.2.2
-faster-whisper==1.0.0
-sentence-transformers==2.7.0
-transformers==4.44.0
+whisperx==3.1.4
+sentence-transformers==3.0.1
+transformers==4.41.2
 deep-translator==1.11.4
