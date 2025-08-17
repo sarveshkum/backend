@@ -2,5 +2,6 @@
   - type: web
     name: backend
     env: python
-    buildCommand: pip install --upgrade pip && pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html
+    plan: free
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt -f https://download.pytorch.org/whl/cpu
     startCommand: gunicorn main:app --timeout 120
