@@ -3,7 +3,5 @@ services:
     name: backend-3
     runtime: python
     pythonVersion: 3.12.18
-    buildCommand: |
-      apt-get update && apt-get install -y ffmpeg
-      pip install -r requirements.txt
-    startCommand: gunicorn main:app --bind 0.0.0.0:$PORT
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn main:app
