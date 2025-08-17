@@ -3,5 +3,5 @@
     name: backend
     env: python
     plan: free
-    buildCommand: pip install --upgrade pip && pip install -r requirements.txt -f https://download.pytorch.org/whl/cpu
+    buildCommand: pip install --upgrade pip && pip install --only-binary=:all: -r requirements.txt -f https://download.pytorch.org/whl/cpu
     startCommand: gunicorn main:app --timeout 120
