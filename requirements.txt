@@ -1,11 +1,10 @@
-Flask==3.1.1
+﻿Flask==3.1.1
 flask-cors==4.0.0
 pymongo==4.13.2
 python-dotenv==1.0.1
-torch==2.5.1
-whisperx==3.1.4
-sentence-transformers==3.0.1
+torch==2.5.0
+whisperx
+sentence-transformers==2.2.2
 transformers==4.40.2
+tokenizers==0.19.1
 deep-translator==1.11.4
-
-tokenizers==0.15.2
