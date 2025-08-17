@@ -1,9 +1,9 @@
-﻿Flask==3.1.1
+Flask==3.1.1
 flask-cors==4.0.0
 pymongo==4.13.2
 python-dotenv==1.0.1
 torch==2.5.0
-whisperx==3.1.1
+git+https://github.com/m-bain/whisperX.git
 sentence-transformers==2.2.2
 transformers==4.41.2
 tokenizers==0.19.1 --only-binary=:all:
