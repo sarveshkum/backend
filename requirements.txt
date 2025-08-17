@@ -5,10 +5,9 @@ flask-cors==4.0.0
 pymongo==4.13.2
 python-dotenv==1.0.1
 
-# PyTorch (CPU build)
-torch==2.5.0 --extra-index-url https://download.pytorch.org/whl/cpu
+# PyTorch (CPU only, smaller build)
+torch==2.5.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 
-# WhisperX (latest from GitHub)
 git+https://github.com/m-bain/whisperX.git
 
 sentence-transformers==2.3.1
