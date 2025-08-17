@@ -2,6 +2,6 @@ services:
   - type: web
     name: backend-3
     runtime: python
-    pythonVersion: 3.12.18
+    pythonVersion: 3.12
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn main:app
